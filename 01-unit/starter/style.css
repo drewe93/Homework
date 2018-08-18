@@ -1,0 +1,103 @@
+body{
+    height: 100vh;
+    font-family: 'Monserrat', sans-serif;
+    background-image: url("assets/bckgrnd.png");
+    display: grid;
+    grid-template-rows: 60% 1fr;
+    grid-template-columns: 1fr;
+
+}
+top{
+    display: grid;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+nav{
+    padding: 15px;
+}
+
+
+header{
+    padding: 50px;
+}
+
+main{
+    display: grid;
+    grid-column: span 1;
+    grid-row: span 1;
+    height: 100%;
+    margin-top:20px;
+    background-color: rgba(150, 150, 150, .6);
+}
+
+.leader{
+    padding: 10px;
+}
+
+.images{
+    border-top: 3px solid #FFFFFF;
+    height:100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+
+a{
+    padding: 10px;
+}
+
+h1{
+    color:#333333;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+h2{
+    color:#333333;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p{
+    margin-top: 5px;
+    color:#333333;
+}
+
+main h2{
+    color: #FFFFFF;
+    font-weight: 10px;
+}
+
+.profile img{
+    width: 200px;
+    border-radius: 100px;
+    border: 3px solid #2c5fa8;
+    margin-left: 10px;
+}
+
+footer{
+    border-top: 3px solid #FFFFFF;
+    justify-content: center;
+    align-items:center;
+}
+
+.block{
+    grid-row: span 1;
+    grid-column: span 1;
+}
+
+.canyon img{
+    height: 300px;
+    width: 450;
+}
+
+.dog img{
+    height: 300px;
+    width: 150;
+}
+
+.cat img{
+    height: 300px;
+    width: 150;
+}
